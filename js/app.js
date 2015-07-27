@@ -6,7 +6,7 @@ var lastEvent;
 
 //mouseDown stored for later when mouse mouse goes outside canvas
 var mouseDown = false;
-var lineWeight = 5;
+var lineWeight = 0;
 
 
 //When click event on control list item, deselect other element and select clicked element
@@ -15,6 +15,12 @@ $(".controls").on("click", "li", function(){
 	$(this).siblings().removeClass("selected");
 	$(this).addClass("selected");
 	color = $(this).css("background-color");
+});
+
+// Change lineWight
+
+$("#weight").change(function(){
+	lineWeight = $(this).val();
 });
 
 
