@@ -8,6 +8,7 @@ var lastEvent;
 var mouseDown = false;
 var lineWeight = 5;
 
+
 //When click event on control list item, deselect other element and select clicked element
 // use .on method as this function is needed again when we add colours
 $(".controls").on("click", "li", function(){
