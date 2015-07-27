@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
+	<h1>Draw on the Chalkboard!</h1>
 	<!-- set canvas size -->
 	<canvas	width="600" height="400"></canvas>
 	<!-- List of all the paints -->
@@ -14,9 +15,9 @@
 			<li class="red selected"></li>
 			<li class="blue"></li>
 			<li class="yellow"></li>
+			<li class="green"></li>
 		</ul>
-		<!-- New colour button with sliders -->
-		<button id="revealColorSelect">New Colour</button>
+		<!--Colour sliders -->
 		<div id="colorSelect">
 			<span id="newColor"></span>
 			<div class="sliders">
@@ -34,11 +35,11 @@
 					<input id="blue" name="blue" type="range" min=0 max=255 value=0>
 				</p>
 			</div>
+		</div>
 			<div>
 			<!-- Button to add new colour made with slider controls -->
 			<button id="addNewColor">Add Colour</button>
 			</div>
-		</div>
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>	

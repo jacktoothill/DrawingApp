@@ -3,8 +3,10 @@ var color = $(".selected").css("background-color");
 var context = $("canvas")[0].getContext("2d");
 var $canvas = $("canvas");
 var lastEvent;
+
 //mouseDown stored for later when mouse mouse goes outside canvas
 var mouseDown = false;
+var lineWeight = 5;
 
 //When click event on control list item, deselect other element and select clicked element
 // use .on method as this function is needed again when we add colours
@@ -48,6 +50,7 @@ $canvas.mousedown(function(e){
 	context.beginPath();
 	context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
 	context.lineTo(e.offsetX, e.offsetY);
+	context.lineWidth = lineWeight;
 	context.strokeStyle = color;
 	context.stroke();
 	lastEvent = e;
