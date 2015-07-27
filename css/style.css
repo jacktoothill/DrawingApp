@@ -1,0 +1,150 @@
+body {
+	background: #E0F0FF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+canvas {
+	background: url('http://www.teca-sf.org/wp-content/uploads/2014/01/chalkboard.1440x900.jpg');
+	display: block;
+	margin: 50px 50px;
+	border-radius: 5px;
+	box-shadow: 0 4px 0 0 #222;
+	cursor: crosshair;
+	float: right;
+}
+
+.controls {
+	background: #333;
+	min-height: 60px;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-bottom: 20px;
+	width: 600px;
+	float: left;
+	border: 7px solid #fff;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	float: left;
+	padding: 10px 0 20px;
+	width: 100%;
+	text-align: center;
+}
+
+ul li, #newColor {
+	display: block;
+	height: 27px;
+	width: 27px;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 0;
+	box-shadow: 0 3px 0 0 #333;
+	border: 3px solid #fff;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0 5px 10px;
+}
+
+.red {
+	background: #fc4c4f;
+}
+
+.blue {
+	background: #4fa3fc;
+}
+
+.yellow {
+	background: #ECD13F;
+}
+
+.selected {
+	height: 40px;
+	width: 40px;
+}
+
+button {
+	background: #68B25B;
+	box-shadow: 0 3px 0 0 #6A845F;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	text-shadow: 0 1px #6A845F;
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+#revealColorSelect {
+	border: none;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 5px 20px;
+	width: 160px;
+}
+
+/* New Color Palette */
+#colorSelect {
+	background: #fff;
+	border-radius: 5px;
+	clear: both;
+	margin: 20px auto 0;
+	padding: 10px;
+	width: 305px;
+	position: relative;	
+}
+
+#newColor {
+	width: 80px;
+	height: 80px;
+	border-radius: 3px;
+	box-shadow: none;
+	float: left;
+	border: none;
+	margin: 10px 20px 20px 10px;
+}
+
+.sliders p {
+	margin: 8px 0;
+	vertical-align: middle;
+}
+
+.sliders label {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	width: 35px;
+	font-size: 14px;
+	color: #6D574E;
+}
+
+.sliders input {
+	position: relative;
+	top: 2px;
+}
+
+#colorSelect button {
+	border: none;
+	border-top: 1px solid #6A845F;
+	border-radius: 0 0 5px 5px;
+	clear: both;
+	margin: 10px -10px -7px;
+	padding: 5px 10px;
+	width: 325px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
