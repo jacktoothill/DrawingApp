@@ -1,6 +1,11 @@
 body {
-	background: #E0F0FF;
+	background: #3f4274;
 	font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+	max-width: 80%;
+	margin: auto;
 }
 
 h1{
@@ -11,22 +16,21 @@ h1{
 }
 
 canvas {
-	background: url('https://pixabay.com/static/uploads/photo/2014/12/15/16/46/blackboard-569260_640.jpg');
-	display: block;
-	margin: 50px 50px;
+	background: #ffffcc;
+	display: inline-block;
+	margin: 30px 10px;
 	border-radius: 5px;
 	box-shadow: 0 4px 0 0 #222;
 	cursor: crosshair;
-	float: right;
 }
 
 .controls {
 	background: #333;
 	min-height: 60px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 50px;
-	padding-bottom: 20px;
-	width: 500px;
+	padding-bottom: 35px;
+	width: 320px;
 	float: left;
 	border: 7px solid #fff;
 	border-radius: 10px;
@@ -79,18 +83,19 @@ ul li {
 }
 
 button {
-	margin-top: 50px;
-	margin-right: 40px;
-	background: #68B25B;
-	box-shadow: 0 2px 0 0 #E6E6E6;
+	margin-top: 10px;
+	margin-right: 20px;
+	background: url('../img/addcolours.jpg');
 	color: #fff;
 	outline: none;
 	cursor: pointer;
-	text-shadow: 0 1px #333;
+	text-shadow: 1px 1px #333;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 40px;
 	float: right;
+	padding: 22px;
+	border-radius: 5px;
 }
 
 
@@ -101,14 +106,8 @@ button {
 	float: left;
 	margin: 20px 20px 0;
 	padding: 5px;
-	width: 300px;
+	width: 150px;
 	position: relative;	
-}
-
-#colorSelect span {
-	border: 3px solid #000;
-	height: 60px;
-	width: 60px;
 }
 
 #newColor {
@@ -116,9 +115,9 @@ button {
 	height: 80px;
 	border-radius: 3px;
 	box-shadow: none;
-	float: left;
-	border: none;
-	margin: 10px 20px 20px 10px;
+	float: right;
+	border: 3px solid #fff;
+	margin: 30px 20px 20px 10px;
 }
 
 .sliders p {
@@ -139,15 +138,6 @@ button {
 	top: 2px;
 }
 
-#colorSelect button {
-	border: none;
-	border-top: 1px solid #6A845F;
-	border-radius: 0 0 5px 5px;
-	clear: both;
-	margin: 10px -10px -7px;
-	padding: 5px 10px;
-	width: 325px;
-}
 
 
 
