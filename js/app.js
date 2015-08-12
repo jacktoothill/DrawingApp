@@ -17,7 +17,11 @@ $(".controls").on("click", "li", function(){
 	color = $(this).css("background-color");
 });
 
+<<<<<<< HEAD
 //change line weight
+=======
+// Change lineWight
+>>>>>>> origin/master
 
 $("#weight").change(function(){
 	lineWeight = $(this).val();
